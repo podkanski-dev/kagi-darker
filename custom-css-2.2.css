@@ -4,10 +4,10 @@
 :root {
 	--app-text: #fdfdfd !important; /* Title Color */
 	--app-search-text: #cccccc; /* Text Color */
-	--app-bg: #000000; /* Main Background Color */
+	--app-bg: #17191e; /* Main Background Color */
 	--primary-25: #0f1013; /* Search result and widget Background Color */
-	--button-color: rgba(150, 171, 250, 0.8); /* Button Colors */
-	--button-hover-color: rgba(102, 132, 244, 0.8); /* Button hover color*/
+	--button-color: var(--purple-600); /* Button Colors */
+	--button-hover-color: var(--purple-500); /* Button hover color*/
 	--kagi-accent: #212533!important; /* list item highlight */
 	--source-highlight-color: #d9a23c;
 	--sri-hover-color: rgb(65, 144, 226);
@@ -455,7 +455,7 @@ a.wiki-nw-link:hover {
 	position: sticky;
 	top: 0;
 	z-index: 114;
-	background: rgba(4, 4, 5, 0.8);
+	/*background: rgba(4, 4, 5, 0.8);*/
 	border-bottom-left-radius: 16px;
 	border-bottom-right-radius: 16px;
 	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.7);
